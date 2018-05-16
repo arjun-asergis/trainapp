@@ -1,0 +1,346 @@
+
+
+.route-wrapper {
+  position: relative;
+  width: 100%;
+    float: left;
+}
+
+.route-wrapper > div {
+  position: absolute;
+  width: 100%;
+  float: left;
+  /* height: 100vh; */
+}
+
+/* .route-wrapper > div > div > div {
+  position: absolute;
+  width: 100%;
+  float: left;
+  height: 100vh;
+} */
+
+
+.route-wrapper > div > div .container{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+  /* display: table-cell;
+  vertical-align: middle */
+}
+
+.route-wrapper > div > div {    height: auto;
+  margin-bottom: 60px;
+
+  display: table;
+  width: 100%;
+  vertical-align: middle;}
+.route-wrapper > div {
+  
+  /* transition: all 0.5s;
+ -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s; */
+
+  /* transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d; */
+
+}
+
+body{
+  background: #e6e3e3;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+
+body{  overflow-x: hidden;}
+p{  margin-bottom: 40px;}
+h1{ margin-top: 0;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+/* .homepage{background: #a9a9a9;} */
+/* .Bpage{background: greenyellow;}
+.Cpage{background: yellow;} */
+.navigation{width: 100%;float: left;    background: #1d1d1d;    padding: 30px 0;  z-index: 9;}
+.navigation ul{margin: 0;padding: 0;text-align: center;}
+.navigation ul li{display: inline-block;margin:  0 10px;}
+.navigation ul li a{border: 1px solid #a9a9a9;color: #fff;text-transform: uppercase;padding: 8px 35px;display: inline-block;text-decoration: navajowhite}
+.navigation ul li a:hover{background: #269999;border: 1px solid #269999;}
+
+
+.homepage form input{
+  width: 260px;
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid #a9a9a9;
+
+}
+
+
+.homepage form button{
+  height: 48px;
+  background: #269999;
+  border: 1px solid #269999;
+  padding: 0 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+}
+.homepage form{
+ text-align: center
+
+}
+
+.Footer{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background: #000;
+  z-index: 9;
+}
+
+.Footer p{
+  margin-bottom:0;
+  padding: 30px 0;
+  color:#fff; 
+}
+
+#myForm{
+  text-align: center;
+}
+
+#myForm input{
+  width: 260px;
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid #a9a9a9;
+}
+.dateBox{
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dateBox input{
+  width: 260px;
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid #a9a9a9;
+  display: inline-block;
+  float: none;
+}
+
+.dateBox button{
+  height: 48px;
+  background: #269999;
+  border: 1px solid #269999;
+  padding: 0 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+}
+
+.no-spin::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+p{
+  margin-bottom: 0;
+}
+.Cpage ul{
+  padding: 0 0 0;
+  background: #fff;
+  margin-bottom: 7rem;
+  width: 100%;
+  float: left;
+  margin-top: 25px;
+}
+.Cpage ul li{
+  list-style: none;
+    margin-bottom: 10px;
+    padding: 10px 15px 10px;
+    border-bottom: 2px solid #a9a9a9;
+    width: 100%;
+    float: left;
+
+}
+
+.Cpage ul li:last-child{
+  margin: 0;
+
+}
+
+
+.Cpage ul li span{
+ display: block;
+ margin-right:10px;
+  
+
+}
+
+.Cpage ul li span.stationName{
+  display: block;
+   
+ 
+ }
+
+.arrived{
+  background: #269999;
+}
+
+
+.arrived span{
+  color: #fff;
+}
+
+.currentSS{
+  width: 100%;
+  float: left;
+  padding: 10px 15px;
+}
+
+.currentSS{
+  width: 100%;
+  float: left;
+  background: #fff;
+}
+
+.currentSS p{
+  width: 100%;
+  float: left;
+}
+
+.box{
+  width: 50%;
+  float: left;
+}
+
+.enterV{
+  width: 100%;
+  float: left;
+  background: #fff;
+  padding: 30px;
+  text-align: center;
+  color: #000;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+/* .arrived + .Nreached{
+  background: red;
+} */
+
+.toggle{
+  display: none;
+}
+.close-menu{
+  font-size: 32px;
+  margin: 10px 15px 9px;
+  color: #fff;
+  display: none;
+}
+
+
+a:hover{
+  text-decoration: none;
+}
+@media only screen and (max-width:767px) {
+  .nav-outer{
+    width:100%;
+    float: left;
+    background: #269999;
+    padding: 15px;
+    z-index: 9999;
+  }
+  .toggle{
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .navigation{
+   
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 280px;
+    padding: 0;
+    background: #269999;
+    height: 100%;
+    transition: all 0.5s;
+    z-index: 9999;
+  }
+
+  .navigation.active{
+    left:0;
+   
+  }
+
+  .navigation ul {
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      width: 100%;
+      float: left;
+  }
+
+  .navigation ul li {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+  }
+  .navigation ul li a{
+    display: block;
+    border: none;
+    padding: 10px 15px;
+    border-bottom: 1px solid #fff;
+  }
+  .navigation ul li:first-child a{
+    border-top: 1px solid #fff;
+  }
+  .navigation ul li a:hover {
+    background: #fff;   
+    border: none;
+    color:#269999;
+    border-bottom: 1px solid #fff;
+  }
+  .navigation ul li:first-child a:hover{
+    border-top: 1px solid #fff;
+  }
+  .navigation .container{
+    padding: 0;
+    float: left;
+    width: 100%;
+    margin: auto;
+    height: 100%;;
+  }
+
+  .close-menu{
+    display: inline-block;
+  }
+  a:hover {
+    color:#fff;
+  }
+
+  .overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5)
+  }
+
+}

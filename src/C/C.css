@@ -1,0 +1,10 @@
+.footer{width: 100%;float: left;position:fixed;bottom: 0;}
+.footer{width: 100%;float: left;    background: #d0a9a9;}
+.footer ul{    width: 100%;
+  float: left;
+  text-align: center;
+  height: auto;
+  padding: 0;
+  margin: 0;}
+.footer li{display: inline-block;margin: 0 15px;}
+.footer li a{color: #212121;text-transform: uppercase;font-size: 20px;}
